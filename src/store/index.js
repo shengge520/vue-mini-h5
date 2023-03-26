@@ -11,7 +11,11 @@ Vue.use(Vuex); //使用 vuex
 
     },
     actions: {
-    }
+    },
+    getters:{
+
+    },
+    modules:{}
 })
 
 export default store;

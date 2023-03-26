@@ -1,7 +1,7 @@
 # vue3.0搭建移动端H5界面模版
 
 #### 技术栈
-vue3 + vuex + vue-router + webpack + ES6/7 + axios + elementUI + 阿里图标iconfont
+vue3 + vuex + vue-router + webpack + ES6/7 + axios + Vant-ui + 阿里图标iconfont
 
 #### 项目分支
 master Vue3.0基本框架
@@ -21,6 +21,8 @@ develop 开发分支
 
 >  如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎 PR 👍
 
+https://vant-ui.github.io/vant/v2/#/zh-CN/
+
 
 #### 目录结构
 ------------------------
@@ -37,7 +39,7 @@ develop 开发分支
 │ ├── App.vue        # 组件入口
 │ └── main.js        # 程序入口
 ├── .babelrc         # ES6语法编译配置
-├── .editorconfig    # 定义代码格式
+├── .postcssrc.js    # 定义插件"postcss-px-to-viewport"配置
 ├── .eslintignore    # ES6规范忽略文件
 ├── .eslintrc.js     # ES6语法规范配置
 ├── .gitignore       # git忽略文件
